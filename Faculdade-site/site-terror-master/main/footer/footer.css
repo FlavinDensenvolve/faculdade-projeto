@@ -1,0 +1,18 @@
+body {
+    font-family: 'Anton', sans-serif !important;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

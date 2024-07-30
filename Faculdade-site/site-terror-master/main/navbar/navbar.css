@@ -1,0 +1,41 @@
+body {
+    font-family: 'Anton', sans-serif !important;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+body img {
+    width: 50px;
+    height: 50px;
+}
+.navbar {
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    justify-content: space-between;
+}
+.navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.links-content {
+    display: flex;
+    align-items: center;
+}
+
+.login-content {
+    color: #f2f2f2;
+    margin-right: 2%;
+}

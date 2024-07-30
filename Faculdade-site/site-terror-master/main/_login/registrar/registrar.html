@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>REGISTRO</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Tektur&display=swap" rel="stylesheet">
+    <link href="utils/bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="registrar.css">
+</head>
+<body>
+    
+    <div class="container">
+        <section class="forms">
+            <form name="form_cadastro" method="post" action="../login.php">
+                <div class="mb-3">
+                    <label for="nick" class="form-label">Nick:</label>
+                    <input type="text" class="form-control" id="nick" name="nick">
+                </div>
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome:</label>
+                    <input type="text" class="form-control" id="nome" name="nome">
+                </div>
+                <div class="mb-3">
+                    <label for="sobre" class="form-label">Sobrenome:</label>
+                    <input type="text" class="form-control" id="sobrenome" name="sobrenome">
+                </div>
+                <div class="mb-3">
+                    <label for="user" class="form-label">Email:</label>
+                    <input type="text" class="form-control" id="email" name="email">
+                </div>
+                <div class="mb-3">
+                    <label for="senha" class="form-label">Senha:</label>
+                    <input type="password" class="form-control" id="senha" name="senha">
+                </div>
+
+                <input type="hidden" name="acao" id="acao" value="login">
+                <input type="submit" class="btn btn-primary" value="Registrar" onclick="document.getElementById('acao').value='registrar'">
+
+
+                <a href="../login.html">Já tem uma conta? Clique aqui.</a>
+            </form>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="utils/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
